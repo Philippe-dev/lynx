@@ -22,11 +22,10 @@ a {
   filter: invert(100%);
 }
 
-img,
-object,
-iframe,
-figure,
-video,
-audio {
-  display: none !important
+a span {
+  filter: invert(50%);
+}
+.image {
+  border: 1px solid #fff;
+  padding: .2em
 }

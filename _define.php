@@ -5,25 +5,20 @@
  * @package Dotclear
  * @subpackage Themes
  *
- * @author Philippe aka amalgame
- *
- * @copyright Philippe philippe@dissitou.org
+ * @copyright Philippe aka amalgame and contributors
  * @copyright GPL-2.0
  */
-
-if (!defined('DC_RC_PATH')) {
-    return;
-}
-
 $this->registerModule(
-    "Lynx Browser",									// Name
-    "Imageless theme for Dotclear",					// Description
-    "Philippe aka amalgame",						// Author
-    '3.1',											// Version
-    [												// Properties
-        'requires'          => [['core', '2.16']],	// Dependencies
+    'Lynx Browser',
+    'Imageless theme for Dotclear',
+    'Philippe aka amalgame',
+    '3.2',
+    [
+        'date'              => '2025-11-11T13:19:41+03.0',
+        'requires'          => [['core', '2.34']],
+        'type'              => 'theme',
         'standalone_config' => true,
         'type'              => 'theme',
-        'tplset' 			=> 'mustek'
+        'tplset'            => 'mustek',
     ]
 );
